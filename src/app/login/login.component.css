@@ -1,0 +1,24 @@
+body{
+    width: 450px;
+    background-image: linear-gradient(rgba(31, 16, 245, 0.733),transparent),url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F609463762062553521%2F&psig=AOvVaw163388ofqzCp2-DDsfaqxo&ust=1672119005241000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiIlO7GlvwCFQAAAAAdAAAAABAL');
+    margin-left: 60%;
+    margin-top: 10%;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgb(0, 0, 0);
+    position: relative;
+    align-items: center;
+}
+body input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+    align-items: center;
+}
+.data{
+    font-size: 5000px;
+    
+    position: relative;
+
+}

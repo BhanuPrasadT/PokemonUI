@@ -1,0 +1,23 @@
+<div class="container">
+    <table border="5">
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Power</td>
+            <td>Species</td>
+            <td>Attack</td>
+        <td>Defense</td>
+        <td>Speed</td>
+            
+
+    </tr>
+    <tr *ngFor="let poks of poks">
+        <td><a href="">{{poks.id}}</a></td>
+        <td>{{poks.name}}</td>
+        <td>{{poks.power}}</td>
+        <td>{{poks.species}}</td>
+        <td>{{poks.attack}}</td>
+        <td>{{poks.defense}}</td>
+        <td>{{poks.speed}}</td>
+    </tr>
+</table></div>

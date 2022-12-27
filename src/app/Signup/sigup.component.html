@@ -1,0 +1,40 @@
+<body >
+    <div class="card" id="card2">
+    <div class="card" id="card1">
+        <div id="user">
+            <label>Username</label>
+            <br>
+            <input type="text" placeholder="Enter username" [(ngModel)]="user.username">
+        </div>
+        <br>
+        <div id="email">
+            <label>Email Id</label>
+            <br>
+            <input type="text" [(ngModel)]="user.emailid">
+        </div>
+        <br>
+        <div id="number">
+            <label>Phone Number</label>
+            <br>
+            <input type="text"  [(ngModel)]="user.phnumber">
+        </div>
+        <br>
+        <div id="pass">
+            <label>Password</label>
+            <br>
+            <input type="password"  [(ngModel)]="user.password">
+        </div>
+        <br>
+        <div id="but">
+            <input type="button" value="Sign Up"  >
+        </div>
+     <div id="log">
+         <h6>Already a user ?</h6>
+         <a routerLink="/login">Log In</a>
+     </div>
+    
+    </div>
+    
+    </div></body>
+    
+    <router-outlet></router-outlet>

@@ -1,0 +1,9 @@
+.container{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    border-bottom: 2px solid silver;
+    align-items: center;
+    
+}

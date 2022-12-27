@@ -1,0 +1,60 @@
+.Name{
+    margin-top: -3%;
+    margin-left: 35%;
+
+}
+h1{
+    color: #f8feff;
+    text-align: center;
+    font-style: italic;
+    font-size: 400%;
+    margin-left: -10%; 
+}
+.Page{
+    text-align: right;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: -3%;
+}
+a:link,a:visited{
+    /* background-color: rgb(21, 128, 0); */
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F609463762062553521%2F&psig=AOvVaw163388ofqzCp2-DDsfaqxo&ust=1672119005241000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiIlO7GlvwCFQAAAAAdAAAAABAL');
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 90px;
+    margin-left: 20px;
+    margin-left: 9px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.3),transparent),url('https://digwallpapers.com/wallpapers/full/a/8/d/70383-3840x2160-pokemon-mystery-dungeon-background-desktop-4k.jpg');
+    /* height: 200%;
+    width: 100%; */
+    background-size: cover;
+    position: relative;
+    padding: 10%;
+}
+.text-box{
+    color: white;
+    position: absolute;
+    bottom: 10%;
+}
+.text-box p{
+    font-size: 50px;
+    font-weight: 450;
+}
+.text-box h2{
+    font-size: 100px;
+    line-height: 60px;
+    margin-left: 10px;
+   
+}
+.text-box h3{
+    font-size: 80px;
+    line-height: 40px;
+    font-style: oblique;
+}
+   

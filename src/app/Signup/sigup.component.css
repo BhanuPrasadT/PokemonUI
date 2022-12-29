@@ -1,6 +1,13 @@
 body{
-    padding: 25px 50px;
+    
     text-align: center;
     display: inline-block;
-    margin-left: 50%;
+    margin-left: 70%;
+    margin-top: 10%;
+    border: transparent;
+    background-image: url('https://wallpaper.dog/large/961991.jpg');
+    font-style: oblique;
+}
+.card2{
+    background-image: url('https://wallpaper.dog/large/961991.jpg');
 }

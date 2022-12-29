@@ -1,10 +1,9 @@
 body{
     width: 450px;
-    background-image: linear-gradient(rgba(31, 16, 245, 0.733),transparent),url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F609463762062553521%2F&psig=AOvVaw163388ofqzCp2-DDsfaqxo&ust=1672119005241000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiIlO7GlvwCFQAAAAAdAAAAABAL');
+    background-image: linear-gradient(rgb(255, 255, 255),transparent),url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F609463762062553521%2F&psig=AOvVaw163388ofqzCp2-DDsfaqxo&ust=1672119005241000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCKiIlO7GlvwCFQAAAAAdAAAAABAL');
     margin-left: 60%;
     margin-top: 10%;
     padding: 30px;
-    box-shadow: 0px 0px 10px rgb(0, 0, 0);
     position: relative;
     align-items: center;
 }
@@ -20,5 +19,20 @@ body input{
     font-size: 5000px;
     
     position: relative;
+
+}
+.login-form{
+    text-align: right;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: -3%;
+    font-size: medium;
+}
+.pic{
+    margin-top: -8%;
+    margin-left: -45%;
+    height: 25%;
+    width: 100%;
+    background-image: top;
 
 }

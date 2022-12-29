@@ -1,23 +1,37 @@
 <div class="container">
-    <table border="5">
-    <tr>
-        <td>Id</td>
-        <td>Name</td>
-        <td>Power</td>
-            <td>Species</td>
-            <td>Attack</td>
-        <td>Defense</td>
-        <td>Speed</td>
-            
-
-    </tr>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">id</th>
+            <th scope="col">name</th>
+            <th scope="col">power</th>
+            <th scope="col">species</th>
+            <th scope="col">attack</th>
+            <th scope="col">defense</th>
+            <th scope="col">speed</th>
+          </tr>
+        </thead>
     <tr *ngFor="let poks of poks">
-        <td><a href="">{{poks.id}}</a></td>
-        <td>{{poks.name}}</td>
+        <td><input type="checkbox">{{poks.id}}</td>
+        <td><a href="zubat/">{{poks.name}}</a></td>
         <td>{{poks.power}}</td>
         <td>{{poks.species}}</td>
         <td>{{poks.attack}}</td>
         <td>{{poks.defense}}</td>
         <td>{{poks.speed}}</td>
     </tr>
-</table></div>
+</table>
+</div>
+<table>
+  <thead>Players
+    <tr>
+      <th scope="col">id</th><span></span>
+      <th scope="col">name</th>
+      <th scope="col">power</th><br><br><br>
+      <th scope="col">species</th><br>
+      <th scope="col">attack</th><br>
+      <th scope="col">defense</th><br>
+      <th scope="col">speed</th><br>
+    </tr>
+  </thead>
+</table>

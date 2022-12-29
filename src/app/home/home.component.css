@@ -1,9 +1,19 @@
+.table{
+    padding: 10px 50px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 190px;
+    margin-left: 200px;
+    margin-left: 90px;
+    padding: 40px 80px;
+    text-decoration: none;
+}
 .container{
-    height: 100%;
-    width: 100%;
-    border: none;
-    font-size: 17px;
-    border-bottom: 2px solid silver;
-    align-items: center;
-    
+    background-image: linear-gradient(rgba(244, 241, 241, 0.3),transparent),url('https://wallpaperaccess.com/full/151931.jpg');
+    /* height: 100%;
+    width: 100%; */
+    background-size: cover;
+     position: relative; 
+    padding:  0.3%;
+    color: white;
 }

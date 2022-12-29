@@ -9,13 +9,17 @@ import { SigupComponent } from './Signup/sigup.component';
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { PoserviceService } from './poservice.service';
+import { ZubatComponent } from './zubat/zubat.component';
+import { GolbatComponent } from './golbat/golbat.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SigupComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    ZubatComponent,
+    GolbatComponent
   ],
   imports: [
     BrowserModule,
